@@ -1,0 +1,5 @@
+cache
+output
+.doit.db*
+__pycache__
+.idea
