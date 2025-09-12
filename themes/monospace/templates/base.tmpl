@@ -8,12 +8,12 @@ ${base.html_headstart()}
 ${template_hooks['extra_head']()}
 </head>
 <body class="home blog">
-    <div id="wrap" style="width:850px">
-        <div id="container" style="width:560px">
+    <div id="wrap">
+        <div id="container" style="width:75%">
             ${template_hooks['page_header']()}
             <%block name="content"></%block>
         </div>
-        <div id="sidebar">
+        <div id="sidebar" style="width:20%">
             <!--Sidebar content-->
             <h1 id="blog-title">
                 <a href="${abs_link('/')}" title="${blog_title}">${blog_title}</a>
@@ -40,13 +40,6 @@ ${template_hooks['extra_head']()}
         </div>
     </div>
     ${base.late_load_js()}
-    <script>
-    baguetteBox.run('div#content', {
-        ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
-    </script>
     <%block name="extra_js"></%block>
     ${body_end}
     ${template_hooks['body_end']()}
