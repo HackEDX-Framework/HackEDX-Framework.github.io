@@ -9,7 +9,7 @@ body { margin:0px; padding:20px 0px; text-align:center; font-family:Monospace; c
 #sidebar > li { margin:20px 0px; }
 #sidebar h1 { border-bottom:1px dotted #C8C8C8; }
 #sidebar .description { display:block; width:100%; height:auto; margin:0px 0px 10px 0px; }
-h1, h2, h3, h4, h5, h6, h7 { margin:0px; text-transform:uppercase; }
+h1, h2, h3, h4, h5, h6, h7 { margin:0px; }
 h4, h5, h6 { font-size:14px; }
 #blog-title { margin-top: 0; line-height:48px;}
 .literal-block {padding: .5em;}
@@ -21,4 +21,15 @@ div.sidebar, div.admonition, div.attention, div.caution, div.danger, div.error, 
 }
 ul.breadcrumb > li:before {
     content: " / ";
+}
+
+
+.guideline {
+    margin-left: min(5vw, 2em);
+}
+
+#sidebar .submenu {
+    border-bottom:1px dotted #C8C8C8;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
 }
