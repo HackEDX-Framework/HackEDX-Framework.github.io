@@ -42,5 +42,21 @@ ${template_hooks['extra_head']()}
     ${base.late_load_js()}
     <%block name="extra_js"></%block>
     ${body_end}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('a');
+            console.log(links)
+            console.log("hiiiii");
+            links.forEach(link => {
+                if (link.hostname !== window.location.hostname) {
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener noreferrer');
+                    var icon = document.createElement('i')
+                    icon.className = "fa fa-external-link"
+                    link.appendChild(icon);
+                }
+            });
+        });
+    </script>
     ${template_hooks['body_end']()}
 </body>
