@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Cleo Schulten"  # (translatable)
-BLOG_TITLE = "HackEDX Framework"  # (translatable)
+BLOG_TITLE = "HackEDX"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://example.com/"
@@ -147,13 +147,28 @@ NAVIGATION_LINKS = {
         #("/rss.xml", "RSS feed"),
         (
             (
-                ('/index.html#decision1', 'Goal : Decision 1'),
-                ('/index.html#decision2', 'Theme : Decision 2'),
+                ('/index.html#decision1', 'Goal - Decision 1'),
+                ('/index.html#decision2', 'Theme - Decision 2'),
+                ('/index.html#decision3', 'Competition / Cooperation - Decision 3'),
+                ('/index.html#decision4', 'Stakeholder involvement - Decision 4'),
+                ('/index.html#decision5', 'Participant recruitment - Decision 5'),
+                ('/index.html#decision6', 'Specialized preparation - Decision 6'),
+                ('/index.html#decision8', 'Ideation - Decision 8'),
+                ('/index.html#decision9', 'Team formation - Decision 9'),
+                ('/index.html#decision11', 'Mentoring - Decision 11'),
+                ('/index.html#extra1', 'Expecting the Unexpected'),
+                ('/index.html#extra2', 'Hackathon in the curriculum')
+
             ),
-            ('/index.html', 'HackEDX')
+            ('/index.html', 'The Framework')
         ),
-        ('https://github.com/Osama131/Hackathon_toolbox_frontend', 'Hackathon Participant Toolbox'),
-        ('https://github.com/Timotheus21/group_former', 'Group Formation Tool')
+        (
+            (
+                ('https://github.com/Osama131/Hackathon_toolbox_frontend', 'Hackathon Participant Toolbox '),
+                ('https://github.com/Timotheus21/group_former', 'Group Formation Tool ')
+            ),
+            ("Resources created for/in HackEDX")
+        )
     ),
 }
 
