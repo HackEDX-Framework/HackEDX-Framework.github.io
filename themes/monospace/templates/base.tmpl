@@ -45,15 +45,15 @@ ${template_hooks['extra_head']()}
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const links = document.querySelectorAll('a');
-            console.log(links)
-            console.log("hiiiii");
             links.forEach(link => {
                 if (link.hostname !== window.location.hostname) {
-                    link.setAttribute('target', '_blank');
-                    link.setAttribute('rel', 'noopener noreferrer');
-                    var icon = document.createElement('i')
-                    icon.className = "fa fa-external-link"
-                    link.appendChild(icon);
+                    if (String(link).indexOf("mailto") == -1){
+                        link.setAttribute('target', '_blank');
+                        link.setAttribute('rel', 'noopener noreferrer');
+                        var icon = document.createElement('i')
+                        icon.className = "fa fa-external-link"
+                        link.appendChild(icon);
+                    }
                 }
             });
         });
