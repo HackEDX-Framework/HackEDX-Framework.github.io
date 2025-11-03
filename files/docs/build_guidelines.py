@@ -1,4 +1,5 @@
 import json
+import os
 
 def process_guideline(guideline, prefix=""):
     guideline_html = ('\n\t\t<div class="col-md-6 guideline">'
@@ -50,7 +51,9 @@ def process_extra(extra):
                                             extra_text=extra['topic_text'], guidelines_html=guideline_html)
     return extra_html
 
-with open("C:/Users/Cleo/Documents/2025_05-Dissertation/GitHub-Pages/hackEDX-wip/files/decision-guidelines.json", "r", encoding="utf-8") as json_file:
+dir = os.path.dirname(__file__)
+in_file = os.path.join(dir, 'decision-guidelines.json')
+with open(in_file, "r", encoding="utf-8") as json_file:
     decision_list = json.loads(json_file.read())
     html = ""
     for decision in decision_list["decisions"]:
@@ -58,6 +61,7 @@ with open("C:/Users/Cleo/Documents/2025_05-Dissertation/GitHub-Pages/hackEDX-wip
     for extra in decision_list["additional_guidelines"]:
         html += process_extra(extra)
 
-with open("C:/Users/Cleo/Documents/2025_05-Dissertation/GitHub-Pages/hackEDX-wip/files/decision-guidelines.md", "w", encoding="utf-8") as html_file:
+out_file = os.path.join(dir, 'decision-guidelines.md')
+with open(out_file, "w", encoding="utf-8") as html_file:
     html_file.write(html)
 
