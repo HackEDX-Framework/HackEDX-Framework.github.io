@@ -164,8 +164,8 @@ NAVIGATION_LINKS = {
         ),
         (
             (
-                ('https://github.com/Osama131/Hackathon_toolbox_frontend', 'Hackathon Participant Toolbox '),
-                ('https://github.com/Timotheus21/group_former', 'Group Formation Tool ')
+                ('https://github.com/HackEDX-Framework/Hackathon_toolbox', 'Hackathon Participant Toolbox '),
+                ('https://github.com/HackEDX-Framework/group_former', 'Group Formation Tool ')
             ),
             ("Resources created for/in HackEDX")
         )
