@@ -1,0 +1,14 @@
+.edx_content{
+    max-width: 1000px;
+}
+
+.home{
+    font-size: large;
+}
+
+.row{
+    border-top-style: dashed;
+    border-top-color: gray;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}

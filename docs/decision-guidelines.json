@@ -1,0 +1,175 @@
+{
+  "decisions": [
+    {
+      "decision_name": "Goal",
+      "decision_number": 1,
+      "decision_text": "The alignment of participants' learning goals with the set learning objectives in the hackathon is crucial for the intended learning outcomes. However, teams may choose challenges or activities in the hackathon that do not align with their initial learning goals. Consequently, additional guidance in the form of scaffolding may be required (Thomas, 2000).",
+      "guidelines": [
+        {
+          "guideline_number": 1,
+          "guideline_name": "Support participants to achieve their personal goals",
+          "guideline_text": "Organizers should clearly communicate the learning objectives of the event and any challenge-specific sub-objectives, while encouraging teams to align their personal learning goals with these targets."
+        }
+      ]
+    },
+    {
+      "decision_name": "Theme",
+      "decision_number": 2,
+      "decision_text": "The theme can help balance achieving learning goals while maintaining a hackathon-like atmosphere through fun or interest-driven elements (Hardin, 2021; Jones et al., 2015).",
+      "guidelines": [
+        {
+          "guideline_number": 2,
+          "guideline_name": "Balance between structure and freedom",
+          "guideline_text": "Related work on learning (see Section 2.2) highlights the need for structure to reach intended learning objectives. Hackathons, however, are characterized by the participants' freedom to choose their activities. Consequently, for educational hackathons striking a balance between the two is crucial."
+        },
+        {
+          "guideline_number": 3,
+          "guideline_pre_text_invisible": "An attractive theme can also draw in participants that are not primarily motivated by learning.",
+          "guideline_name": "Tailor the hackathon to accommodate diverse motivations",
+          "guideline_text": "Since participants can learn something regardless of their primary motivation - for example through incidental or collateral learning - organizers should (1) maintain the “hackathon spirit” by embracing fun as an essential factor of both hackathons and learning (Hootstein, 1994; Rusk, 2016; Sentance et al., 2017), and (2) avoid “gate-keeping” by keeping the hackathon open to all who want to join regardless of motivation, as long as they can accommodate the sign-up numbers."
+        },
+        {
+          "guideline_number": 4,
+          "guideline_pre_text": "As part of the theme organizers can set specific challenges - as we did in H1 and H4 - depending on the expected audience, these challenges should cover various difficulty levels.",
+          "guideline_name": "Variety of difficulty levels",
+          "guideline_text": "Challenges set for the hackathon participants should cover various difficulty levels to accommodate participants with different pre-existing knowledge."
+        }
+      ]
+    },
+    {
+      "decision_name": "Competition / Cooperation",
+      "decision_number": 3, 
+      "decision_text": "Due to the already somewhat stressful nature of hackathons - to finish something in a limited time - that may lead to participants using familiar tools and techniques rather than trying new things, as shown in H2 and related work (Gama, Goncalves, & Alessio, 2018), I decided against adding competition elements to the hackathons of this dissertation research. Competition has been shown to be significantly related to test anxiety (Hoferichter & Raufelder, 2017) and “loosing” unexpectedly could lead to negative effect on self-worth (X. H. Wang & Yang, 2003). Further, in ranking students their relative performance is directly linked to their perceived ability and consequent potential self-worth (X. H. Wang & Yang, 2003). The rarity of rewards for “winners” then leads to a strengthened link between perceived ability and self-worth (X. H. Wang & Yang, 2003), which could be detrimental to learning. Conversely, competition could be introduced in these events to increase motivation and engagement (Murayama et al., 2021). The introduction of competition to a learning focused hackathon consequently should be considered and planned carefully as it could come with certain risks."
+    },
+    {
+      "decision_name": "Stakeholder involvement",
+      "decision_number": 4,
+      "decision_text": "As with regular hackathons, stakeholders can be involved in various ways, such as providing challenges, mentoring or judging. In addition to these roles, stakeholders could also bring in educational or pedagogical expertise to support the learning objectives of the hackathon."
+    },
+    {
+      "decision_name": "Participant recruitment",
+      "decision_number": 5,
+      "decision_text": "Participants recruitment for educational hackathons can look very similar to that of any other hackathon, if the educational hackathon is voluntary and as such either exists outside of the curriculum or as an optional part in the curriculum. However, for hackathons as mandatory elements in the curriculum recruitment would not be needed, instead a focus on motivating students to participate becomes more relevant."
+    },
+    {
+      "decision_name": "Specialized preparation",
+      "decision_number": 6,
+      "decision_text": "In H1 we found that the offered in-person tutorials were not enough to thoroughly cover the setup and any problems that may arise, especially given the relatively short duration of the event. Consequently, some of the preparation should be moved to before the hackathon.",
+      "guidelines": [
+        {
+          "guideline_number": 5,
+          "guideline_name": "Support for tool setup",
+          "guideline_text": "Organizers should inform the participants before the event about technical requirements. Ideally, this includes to provide instructions or tutorials for the setup and may also extend to online Q&A sessions."
+        },
+        {
+          "guideline_number": 6,
+          "guideline_pre_text": "One way to implement such support is with the toolbox that was implemented for this dissertation (see Section 3.6.1). In H2 and H3 we found that few participants used the toolbox either because it did not seem relevant to them or because they did not have the time leading up to the event.",
+          "guideline_name": "Realistic expectations of participant preparation",
+          "guideline_text": "Organizers need to have realistic expectations of what effort participants will put into their preparation. Providing information before the hackathon is advisable but does not remove the need of on-site support with setup or technical difficulties."
+        }
+      ]
+    },
+    {
+      "decision_name": "Ideation",
+      "decision_number": 8,
+      "decision_text": "In an educational hackathon the ideation phase can be used to align the participants' activities and learning goals with the learning objectives of the hackathon. With given challenges ideation is reduced to choosing from the given challenges. However, if teams can freely choose their topics, organizers should provide guidance to help teams choose appropriate and manageable topics.",
+      "guidelines": [
+        {
+          "guideline_number": 7,
+          "guideline_name": "Guidance in ideation",
+          "guideline_text": "Organizers should provide guidance to help participants or teams in finding appropriate and manageable topics that align with the learning objectives of the hackathon and their personal learning goals. This could be done by providing examples, guiding a brainstorming session, or filtering the participant suggested topics prior to team formation."
+        }
+      ]
+    },
+    {
+      "decision_name": "Team formation",
+      "decision_number": 9,
+      "decision_text": "With various motivation, goals and objectives, organizers should provide guidance to hackathon participants in forming teams to support a solid foundation for collaborative learning (Dillenbourg, 1999). Depending on the setup and objectives of the hackathon this may come in the form of assigning teams or guiding the team formation process.",
+      "guidelines": [
+        {
+          "guideline_number": 8,
+          "guideline_name": "Support of team formation",
+          "guideline_text": "Organizers should support the team formation to align with the learning objectives of the hackathon. This team formation can take several aspects into account, such as: (a) whether teams or participants could benefit from groups with similar motivation, learning goals and preexisting knowledge, (b) whether teams may benefit from heterogeneous professional backgrounds and prior knowledge to inform ideation and brainstorming, as well as cover different expertise, and (c) if it should be prioritized to team up participants that join the hackathon together (provided that the participants wish to stick together)"
+        },
+        {
+          "guideline_number": 9,
+          "guideline_pre_text": "In H2 we found that teams dealt very differently with the varied pre-existing knowledge resulting in some difficulties in finding appropriate roles within the teams.",
+          "guideline_name": "Guidance on roles within the teams",
+          "guideline_text": "With heterogeneous groups in regard to hackathon relevant skills or topics, groups may need assistance in finding appropriate roles or tasks for all group members. This could, for example, be done by providing examples of roles or by already suggesting roles within the group formation as a form of scaffolding (Dillenbourg, 1999)."
+        },
+        {
+          "guideline_number": 10,
+          "guideline_pre_text": "With smaller events it is crucial to prioritize the team formation criteria, because the event could end up with so few participants that applying all criteria dilutes the ideal team composition.",
+          "guideline_name": "Prioritization of team formation criteria",
+          "guideline_text": "Organizers should prioritize which criteria are crucial to their objectives and which are more optional. To fall back on the prioritization in case of few participants."
+        }
+      ]
+    },
+    {
+      "decision_name": "Mentoring",
+      "decision_number": 11,
+      "decision_text": "Involving experienced peers (that is, peers who are more knowledgeable) as mentors can foster the creation of a safe and comfortable environment and accommodate the needs of participants who may be hesitant to ask for help. This is crucial as asking for help is important in the learning process (Miles & Vela, 2022; Smalley & Hopkins, 2020).",
+      "guidelines": [
+        {
+          "guideline_number": 11,
+          "guideline_name": "Mentoring should help participants to help themselves",
+          "guideline_text": "Mentors should be instructed - and participants informed - that assistance should come in the form of hints or general pointers rather than giving solutions or doing things for them. Otherwise we take away agency and room to learn. At the same time, it should be clear to all participants that the mentors are there to help."
+        }
+      ]
+    }
+  ],
+  "additional_guidelines": [
+    {
+      "topic": "Expecting the Unexpected: Dealing with Issues in Educational Hackathons",
+      "topic_text": "In all four hackathons the participants and we as organizers encountered various issues and obstacles. Some of the challenges encountered by the participants were expected and even intended to contribute to their learning process. However, other issues were detrimental to the participants’ progress and learning. With the previous guidelines I aimed to address many of these issues proactively, so that future organizers can avoid them. However, other issues may arise unexpectedly during the hackathon. Thus, organizers should aim to be prepared to deal with unexpected issues as they arise.",
+      "guidelines": [
+        {
+          "guideline_number": 12,
+          "guideline_name": "Preparing for expected issues in the hackathon",
+          "guideline_text": "Hints, instructions, or tutorials should be prepared for expected issues, either for the participants directly or as reference for the mentors. This can also be part of providing scaffolding or be combined with is (as proposed in Guideline 1)."
+        },
+        {
+          "guideline_number": 13,
+          "guideline_name": "Adapting to unexpected issues in the hackathon",
+          "guideline_text": "For truly unexpected problems, it is harder to plan solutions ahead of time. But organizers can prepare themselves to deal with unexpected issues by being flexible and adaptable:",
+          "sub_guidelines": [
+            {
+              "guideline_number": "a",
+              "guideline_name": "During the event",
+              "guideline_text": "flexibility and adaptability are essential in dealing with unexpected issues: Having time buffers in the schedule may provide time to come up with solutions. Additionally, crowd sourcing for a solution by asking among organizers, mentors and even participants could prove a useful practice."
+            },
+            {
+              "guideline_number": "b",
+              "guideline_name": "After the event",
+              "guideline_text": "it is important to reflect on encountered issues. Consequently, appropriate changes can be made for future events, as performed in the DBR process of this dissertation. Indeed, this methodological framework should be seen as a living documentation that can be updated and improved based on future experiences and insights."
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "topic": "Hackathons as part of the curriculum",
+      "topic_text": "While the four hackathons discussed in this dissertation were not part of the formal curriculum - and based on the reviewed literature - I gained insights into how hackathons could be integrated into formal education and what additional considerations should be made.",
+      "guidelines": [
+        {
+          "guideline_number": 14,
+          "guideline_pre_text": "H1 and H4 were organized as voluntary events that were related to the curriculum and were advertised as practice opportunities for programming courses. Some participants, thus, expected a closer connection to their programming courses.",
+          "guideline_name": "Clear connection to the curriculum",
+          "guideline_text": "The connection between hackathon and curriculum should be made explicit. Who is organizing the event? What will participants learn or practice? How does it tie into the curriculum? Lack of such connections could have a negative impact on participants' motivation and satisfaction."
+        },
+        {
+          "guideline_number": 15,
+          "guideline_pre_text": "Hackathons are conventionally events that are voluntary and participants join in their free time (Hardin, 2021; Jones et al., 2015; A. J. Turner et al., 2021). With hackathons for learning - and in formal education - it is necessary to find some balance:",
+          "guideline_name": "Voluntary participation in the curriculum",
+          "guideline_text": "Based on competing factors, voluntary participation could be disregarded. Alternatively, we can account for voluntary participation by, for example, setting the hackathon up (a) as an optional part of a course for bonus points, (b)as a mandatory component in a course that itself is not mandatory in the curriculum, or (c) as an optional component in the curriculum (e.g. as a practical project)."
+        },
+        {
+          "guideline_number": 16,
+          "guideline_name": "Balance learning through failure with assessment",
+          "guideline_pre_text": "A critical aspect of hackathons contrasting formal education is allowing for failure (Hardin, 2021), which could be an issue in formal education where the hackathon could also be part of the assessment.",
+          "guideline_text": "To balance allowing for failure and using the hackathon performance for assessment, it is important to focus on the entire process rather than the final product. What issues did the students face and handle? How did they adapt to difficulties? What did they learn from their struggles? Thus, it is critical to support self-reflections where learners can be prompted to reflect on what they learned, if they are satisfied with their results, what did not go as planned and what they would do differently (Barroso & Morgan, 2012)."
+        }
+      ]
+    }
+  ]
+}
