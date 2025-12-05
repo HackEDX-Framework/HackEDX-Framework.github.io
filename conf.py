@@ -164,10 +164,12 @@ NAVIGATION_LINKS = {
         ),
         (
             (
+                ('https://osf.io/qdavm/overview', 'Data Collection Methods '),
                 ('https://github.com/HackEDX-Framework/Hackathon_toolbox', 'Hackathon Participant Toolbox '),
-                ('https://github.com/HackEDX-Framework/group_former', 'Group Formation Tool ')
+                ('https://github.com/HackEDX-Framework/group_former', 'Group Formation Tool '),
+                ('https://github.com/HackEDX-Framework/ArcadeMachine', 'Arcade Machine ')
             ),
-            ("Resources created for/in HackEDX")
+            ('/resources/', 'Resources created for/in HackEDX')
         )
     ),
 }
@@ -1292,7 +1294,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-EXTRA_HEAD_DATA = '<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">'
+EXTRA_HEAD_DATA = '<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"><link rel="icon" href="/images/HackEDX-icon.png">'
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
