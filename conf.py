@@ -20,10 +20,10 @@ BLOG_AUTHOR = "Cleo Schulten"  # (translatable)
 BLOG_TITLE = "HackEDX"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "https://hackedx-framework.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://example.com/"
+# BASE_URL = "https://hackedx-framework.github.io/"
 BLOG_EMAIL = "cleo.schulten@uni-due.de"
 BLOG_DESCRIPTION = "This is an overview on the HackEDX Framework that I developed as part of my PhD dissertation."  # (translatable)
 
