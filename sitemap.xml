@@ -6,39 +6,39 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/</loc>
+  <loc>https://hackedx-framework.github.io/</loc>
   <lastmod>2025-12-05T22:47:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
-  <lastmod>2025-12-05T22:52:00Z</lastmod>
+  <loc>https://hackedx-framework.github.io/archive.html</loc>
+  <lastmod>2025-12-22T19:07:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/blog/</loc>
+  <loc>https://hackedx-framework.github.io/blog/</loc>
   <lastmod>2025-12-05T22:47:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
+  <loc>https://hackedx-framework.github.io/categories/</loc>
   <lastmod>2025-12-05T22:47:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
+  <loc>https://hackedx-framework.github.io/galleries/</loc>
   <lastmod>2025-12-05T22:47:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/demo/</loc>
+  <loc>https://hackedx-framework.github.io/galleries/demo/</loc>
   <lastmod>2025-12-05T22:47:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
+  <loc>https://hackedx-framework.github.io/listings/</loc>
   <lastmod>2025-12-05T22:47:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/hello.py.html</loc>
-  <lastmod>2025-12-05T22:52:00Z</lastmod>
+  <loc>https://hackedx-framework.github.io/listings/hello.py.html</loc>
+  <lastmod>2025-12-22T19:07:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/resources/</loc>
+  <loc>https://hackedx-framework.github.io/resources/</loc>
   <lastmod>2025-12-05T22:47:00Z</lastmod>
  </url>
 </urlset>
